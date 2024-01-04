@@ -5,8 +5,7 @@
 #include <unistd.h>
 #include <dos.h>
 #include <iomanip> 
-//Brought To You by code-projects.org
-// included required library files
+
 using namespace std;
 class customer // customer class
 {
@@ -16,12 +15,13 @@ class customer // customer class
     string carmodel;
     string carnumber;
     char data;
+
     // variables defined in this class in public mode.
 };
-class rent : public customer // inhereted class from customer class
+class rent: public customer // inherited class from customer class
 {
 	public:
-	int days=0,rentalfee=0; // additional int vatiables defined
+	int days=0,rentalfee=0; // additional int variables defined
 	void data()
 	{
 		int login();
